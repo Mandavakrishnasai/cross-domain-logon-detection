@@ -1,0 +1,9 @@
+index=wineventlog  EventCode=4624
+| eval ComputerName=trim(lower(ComputerName))
+| lookup asset_lookup host AS ComputerName OUTPUT domain AS asset_domain
+| eval Logon_Domain=lower(Logon_Domain), asset_domain=lower(asset_domain)
+| where Logon_Domain != asset_domain
+| search NOT Account_Name IN ("svc_web", "svc_backup")
+| stats count by Account_Name, Logon_Domain, ComputerName, asset_domain
+| sort -count
+| rename Account_Name AS "User", Logon_Domain AS "User Domain", ComputerName AS "Target Host", asset_domain AS "Host Domain", count AS "Logon Count"

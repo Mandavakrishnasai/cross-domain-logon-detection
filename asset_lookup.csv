@@ -1,0 +1,7 @@
+host,domain
+workstation1.corp.local,CORP
+workstation2.dev.local,DEV
+workstation5.dev.local,DEV
+workstation9.hr.local,HR
+DC1.corp.local,CORP
+DC2.dev.local,DEV

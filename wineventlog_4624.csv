@@ -1,0 +1,21 @@
+_time,ComputerName,Account_Name,Logon_Domain,EventCode,Logon_Type,Logon_Process,Workstation_Name
+2025-07-29 09:00:00,workstation1.corp.local,attacker,HR,4624,2,SchdTask,workstation1
+2025-07-29 09:13:00,workstation1.corp.local,alice,DEV,4624,2,SchdTask,workstation1
+2025-07-29 09:26:00,workstation9.hr.local,svc_web,CORP,4624,2,Winlogon,workstation9
+2025-07-29 09:39:00,workstation1.corp.local,svc_web,DEV,4624,3,Sspi,workstation1
+2025-07-29 09:52:00,DC2.dev.local,attacker,DEV,4624,10,User32,DC2
+2025-07-29 10:05:00,workstation2.dev.local,svc_web,DEV,4624,2,Sspi,workstation2
+2025-07-29 10:18:00,workstation5.dev.local,svc_web,DEV,4624,3,Sspi,workstation5
+2025-07-29 10:31:00,DC2.dev.local,bob,CORP,4624,3,Sspi,DC2
+2025-07-29 10:44:00,DC2.dev.local,svc_web,CORP,4624,2,Sspi,DC2
+2025-07-29 10:57:00,workstation9.hr.local,charlie,CORP,4624,2,User32,workstation9
+2025-07-29 11:10:00,workstation1.corp.local,alice,DEV,4624,3,User32,workstation1
+2025-07-29 11:23:00,workstation5.dev.local,attacker,DEV,4624,10,Advapi,workstation5
+2025-07-29 11:36:00,workstation1.corp.local,attacker,CORP,4624,2,Advapi,workstation1
+2025-07-29 11:49:00,workstation1.corp.local,bob,CORP,4624,10,Advapi,workstation1
+2025-07-29 12:02:00,workstation9.hr.local,svc_web,DEV,4624,2,Sspi,workstation9
+2025-07-29 12:15:00,workstation1.corp.local,svc_web,DEV,4624,3,Sspi,workstation1
+2025-07-29 12:28:00,workstation2.dev.local,svc_web,HR,4624,2,Sspi,workstation2
+2025-07-29 12:41:00,workstation9.hr.local,attacker,HR,4624,2,Sspi,workstation9
+2025-07-29 12:54:00,workstation5.dev.local,attacker,DEV,4624,2,Advapi,workstation5
+2025-07-29 13:07:00,workstation2.dev.local,alice,HR,4624,3,Advapi,workstation2

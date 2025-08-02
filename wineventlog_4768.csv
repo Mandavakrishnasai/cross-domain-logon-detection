@@ -1,0 +1,11 @@
+_time,ComputerName,Account_Name,Service_Name,Ticket_Options,Logon_Domain,EventCode
+2025-07-29 09:00:00,workstation9.hr.local,attacker,krbtgt,0x40810010,HR,4768
+2025-07-29 09:17:00,DC1.corp.local,bob,krbtgt,0x40810010,CORP,4768
+2025-07-29 09:34:00,workstation5.dev.local,alice,krbtgt,0x40810010,DEV,4768
+2025-07-29 09:51:00,workstation9.hr.local,alice,krbtgt,0x40810010,HR,4768
+2025-07-29 10:08:00,workstation2.dev.local,bob,krbtgt,0x40810010,DEV,4768
+2025-07-29 10:25:00,DC2.dev.local,attacker,krbtgt,0x40810010,DEV,4768
+2025-07-29 10:42:00,DC2.dev.local,attacker,krbtgt,0x40810010,DEV,4768
+2025-07-29 10:59:00,workstation2.dev.local,bob,krbtgt,0x40810010,DEV,4768
+2025-07-29 11:16:00,workstation9.hr.local,alice,krbtgt,0x40810010,HR,4768
+2025-07-29 11:33:00,DC2.dev.local,attacker,krbtgt,0x40810010,DEV,4768

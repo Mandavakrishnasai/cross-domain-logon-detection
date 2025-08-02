@@ -1,0 +1,5 @@
+User,"User Domain","Target Host","Host Domain","Logon Count"
+alice,dev,"workstation1.corp.local",corp,2
+alice,hr,"workstation2.dev.local",dev,1
+attacker,hr,"workstation1.corp.local",corp,1
+charlie,corp,"workstation9.hr.local",hr,1
